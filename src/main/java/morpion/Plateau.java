@@ -14,6 +14,8 @@ public class Plateau {
 		String aux = grille.get(getKey(x, y));
 	}
 
+	ddd
+
 	public void remiseAZero() {
 		grille.clear();
 	}
