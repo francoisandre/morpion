@@ -1,0 +1,25 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="2.5">
+
+	<servlet>
+		<servlet-name>morpionServlet</servlet-name>
+		<servlet-class>morpion.servlet.MorpionServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>morpionServlet</servlet-name>
+		<url-pattern>/jeu</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>morpionServlet</servlet-name>
+		<url-pattern>/start</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>morpionServlet</servlet-name>
+		<url-pattern>/coup</url-pattern>
+	</servlet-mapping>
+	
+		
+
+
+</web-app>

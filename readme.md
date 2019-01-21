@@ -1,3 +1,4 @@
 # Instructions pour utiliser le projet
 
-bla bla bla bla bla
+http://localhost:8080/morpion/
+
